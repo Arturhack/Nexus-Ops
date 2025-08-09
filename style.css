@@ -1,0 +1,74 @@
+/* style.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #1b2735, #090a0f);
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.game-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #ffd700;
+}
+
+.edition {
+  font-size: 0.6em;
+  color: #ff8c00;
+}
+
+.board {
+  background: #333;
+  border: 3px solid #555;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.board-placeholder {
+  color: #888;
+  font-style: italic;
+}
+
+.objectives {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.objectives h2 {
+  margin-top: 0;
+  color: #87ceeb;
+}
+
+.objectives ul {
+  list-style: none;
+  padding: 0;
+}
+
+.objectives li {
+  padding: 10px;
+  margin: 8px 0;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.objectives li:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.02);
+}
+
+.objectives li.completed {
+  text-decoration: line-through;
+  color: #90ee90;
+  background: rgba(0, 255, 0, 0.15);
+}
